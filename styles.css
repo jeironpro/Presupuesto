@@ -34,6 +34,12 @@ body {
     width: 250px;
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
 .boton {
     align-items: center;
     display: flex;
